@@ -11,5 +11,8 @@ public class Paper
         else {
             return n * m;
         }
+        /* better solution
+            return (n < 0) || (m < 0) ? 0 : n * m;
+        */
     }
 }
